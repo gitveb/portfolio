@@ -1,0 +1,294 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.42)), to(rgba(0, 0, 0, 0.42))), url("../img/bg.jpg") center no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url("../img/bg.jpg") center no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #E5E5E5;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+  padding: 0 5px;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  font-style: normal;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 18px;
+}
+
+.contacts-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-phone__text {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.contacts-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-mail__text {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.hero {
+  padding: 40px 0;
+}
+
+.hero-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 0;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
+  margin-top: 7px;
+}
+
+.hero__subtitle {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hero-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  margin-right: 50px;
+  padding: 10px 5px 10px 0;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.hero-description__title {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 60px;
+}
+
+.hero-description__subtitle {
+  ont-size: 18px;
+  line-height: 21px;
+  margin-bottom: 60px;
+}
+
+.hero-description__text {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.hero-projects__title {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hero-sites {
+  border: 5px solid rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+  padding: 32px 10px 32px 32px;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.hero-site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.hero-site__last {
+  margin-bottom: 0;
+}
+
+.hero-site__image {
+  width: 150px;
+  height: 84px;
+  margin-right: 20px;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.hero-site__image:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.hero-site__image_linear {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.42)), to(rgba(0, 0, 0, 0.42))), url("../img/teplica.jpg") center no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url("../img/teplica.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.hero-site__text {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-size: 14px;
+  width: 240px;
+}
+
+.hero-site__text:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.form {
+  background: rgba(196, 196, 196, 0.74);
+  border-radius: 5px;
+  width: 407px;
+  padding: 11px 35px;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 225px;
+  margin: auto;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.form-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.input {
+  background: #F8F8F8;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+          box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  padding-left: 50px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 28px;
+  color: #949494;
+}
+
+.input-name {
+  margin-bottom: 17px;
+  background-image: url("../img/usericon.svg");
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.input-phone {
+  margin-bottom: 17px;
+  background-image: url("../img/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.form-button {
+  width: 240px;
+  border: none;
+  border-radius: 5px 5px 10px 10px;
+  font-size: 11px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+.form-button:hover {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #FDDE76;
+}
+
+.form-policy {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  color: #F8F8F8;
+}
+
+.form-policy__document {
+  text-decoration: none;
+  color: #F8F8F8;
+  font-weight: bold;
+}
+
+.form-policy__document:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+/*# sourceMappingURL=style.css.map */
